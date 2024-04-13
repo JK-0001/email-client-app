@@ -1,0 +1,24 @@
+{% load socialaccount %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Sign-up</title>
+</head>
+<body>
+    <main>
+        <section class="loginButtons">
+            <button class="btn btn-outline-info">
+                <a href="{% provider_login_url 'google'%}?next=/">
+                    <i class="fab fa-google"></i>
+                    Login with Google
+                </a>
+            </button>
+            <button>ICloud</button>
+            <button>Yahoo</button>
+            <button>Outlook</button>
+            <button>Office 365</button>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,5 @@
+1. Create Login Page - Where you can sign in with your email, google, yahoo, icloud, outlook, office 365
+
+2. Retrieve mails from the mail server
+
+3. Create UI Design to interact with fetched mails
